@@ -6,3 +6,4 @@ work
 .tomcatplugin
 WEB-INF/lib
 WEB-INF/classes
+release.properties
