@@ -1,0 +1,8 @@
+.classpath
+.project
+.settings
+target
+work
+.tomcatplugin
+WEB-INF/lib
+WEB-INF/classes
