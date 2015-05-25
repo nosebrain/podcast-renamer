@@ -32,9 +32,10 @@ public class BaseController {
     
     for (final SyndEntry entry : feed.getEntries()) {
       final SyndContent description = entry.getDescription();
-      final String cleanedDescription = DESCRIPTION_PATTERN.matcher(description.getValue()).replaceAll("");
-      description.setValue(cleanedDescription);
-      System.err.println(description.getValue());
+      if (description != null) {
+        final String cleanedDescription = DESCRIPTION_PATTERN.matcher(description.getValue()).replaceAll("");
+        description.setValue(cleanedDescription);
+      }
     }
     
     final SyndFeedOutput output = new SyndFeedOutput();
