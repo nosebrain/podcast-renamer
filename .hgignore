@@ -8,3 +8,5 @@ WEB-INF/lib
 WEB-INF/classes
 release.properties
 pom.xml.releaseBackup
+
+podcast-renamer.iml
