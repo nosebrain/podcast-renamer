@@ -12,8 +12,8 @@
   </properties>
   
   <scm>
-    <connection>scm:hg:ssh://hg@bitbucket.org/nosebrain/podcast-renamer</connection>
-    <developerConnection>scm:hg:ssh://hg@bitbucket.org/nosebrain/podcast-renamer</developerConnection>
+    <connection>scm:git:ssh://git@github.com:nosebrain/podcast-renamer.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:nosebrain/podcast-renamer.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   
